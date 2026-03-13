@@ -9,7 +9,7 @@ int i;
 printf("N�meros pares de 1 a 30 \n");
 
 for(i = 1; i <= 30; i++){
-if(i % 2 == 0){
+if(i % 2 =! 0){
     printf("Número par: %d \n",i );
 }
 else{
