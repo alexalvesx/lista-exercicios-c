@@ -7,7 +7,7 @@ int main(){
     float nota1, nota2, media;
 
     printf("Digite o nome do aluno: \n");
-    scanf("%50[^\n]", &nome);
+    scanf(" %50[^\n]", &nome);
     printf("Digite a primeira nota: \n");
     scanf("%f", &nota1);
     printf("Digite a segunda nota: \n");
