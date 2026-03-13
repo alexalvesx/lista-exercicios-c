@@ -54,7 +54,7 @@ int main(){
         printf("Digite o número divisor: ");
         scanf("%f", &n2);
         if(n2 == 0){
-            printf("Não é possível dividir por zero");
+            printf("Não é possível dividir por zero \n");
             
 
         } else {
@@ -65,7 +65,7 @@ int main(){
         }
         default:
         printf("Opção Inválida!\n");
-        break;
+        
     }
 }
 
