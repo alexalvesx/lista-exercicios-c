@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h> // Evitar bugs com acento
-#include <math.h> // Obrigatório para fmod
+#include <math.h> // Obrigatório para fmod (Resto de divisão pro zero decimal)
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
@@ -141,12 +141,12 @@ int main(){
                 //conferindo a divisão por zero           
                 if (n2 == 0) {
                     printf("Erro matemático: Divisão por zero!\n");
-                } else {
+                    } else {
                     result = n1 / n2;
                     printf("O resultado é: %.2f", result);
                     repetir = 0;
                     break;
-                }
+                    }
                 
                 case 2:
                 printf("Digite o dividendo: ");
@@ -157,13 +157,13 @@ int main(){
                 //conferindo a divisão por zero           
                 if (n2 == 0) {
                     printf("Erro matemático: Divisão por zero!\n");
-                } else {
+                    } else {
                     result = fmod(n1 , n2);
                     printf("O resultado é: %.2f", result);
                     repetir = 0;
                     break;
-                }
-                
+                    }
+
                 default:
                 printf("Opção Inválida!\n\n");
 
