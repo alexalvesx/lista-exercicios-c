@@ -13,7 +13,7 @@ int main(){
     printf("I \n");
     printf("O \n");
     printf("U \n");
-    printf("Vogal escolhida: ")
+    printf("Vogal escolhida: ");
     scanf("%c", &vogal);
 
     switch (vogal) {
@@ -30,6 +30,7 @@ int main(){
         case 'I':
         case 'i':
         printf("Iguana");
+        break;
 
         case 'O':
         case 'o':
