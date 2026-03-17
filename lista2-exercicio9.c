@@ -19,4 +19,6 @@ int main (){
     }
 
     printf("\nA maior idade é: %d", maioridade);
+
+    return(0);
 }

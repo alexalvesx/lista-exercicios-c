@@ -6,9 +6,9 @@ int main (){
 
     float num, soma;
     int i = 1;
-
-    for (i = 1; i <= 3; i++){
-        printf("Digite o número: \n");
+    printf("----- SOMA DE 10 NUMEROS -----\n");
+    for (i = 1; i <= 10; i++){
+        printf("Digite o número: ");
         scanf("%f", &num);
         soma = soma + num;
     }

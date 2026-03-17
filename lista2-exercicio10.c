@@ -15,4 +15,6 @@ int main (){
         printf("%d X %d = %d\n", numero, i, tabuada);
         
     }
+
+    return(0);
 }

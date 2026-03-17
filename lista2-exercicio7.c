@@ -13,4 +13,5 @@ int main (){
             printf("Número impar: %d\n", n);
         }
     }
+    return(0);
 }
