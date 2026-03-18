@@ -250,11 +250,11 @@ int main(){
         } 
     }
             if (venceu == 1){
-                printf("------------ BOLA VENCEU!!!\n");
+                printf("--------------- BOLA VENCEU!!! ---------------\n");
             }   else if (venceu == 2) {
-                printf("------------- X VENCEU!!!\n");
+                printf("---------------X VENCEU!!! ---------------\n");
             }   else {
-                printf("-------------- DEU VELHA :D\n");
+                printf("--------------- DEU VELHA :D ---------------\n");
             }
 
             printf("                  %c | %c | %c                         \n", p1, p2, p3);
