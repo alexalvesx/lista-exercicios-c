@@ -4,7 +4,7 @@
 int main(){
     setlocale(LC_ALL, "Portuguese");
 
-    int rodada, venceu;
+    int rodada, venceu = 0;
     char p1 = '1', p2 = '2', p3 = '3', p4 = '4', p5 = '5', p6 ='6', p7 = '7', p8 = '8', p9 = '9', escolha;
     printf("--------------- JOGO DA VELHA ---------------\n");
     printf("---------------- Vamos jogar! ---------------\n\n");
@@ -240,7 +240,7 @@ int main(){
                 (p1 == 'X' && p5 == 'X' && p9 == 'X') || 
                 (p3 == 'X' && p5 == 'X' && p7 == 'X')
                 ){
-                    venceu = 0;
+                    venceu = 2;
                     rodada = 10;
 
                 }  else {
@@ -251,7 +251,7 @@ int main(){
     }
             if (venceu == 1){
                 printf("------------ BOLA VENCEU!!!\n");
-            }   else if (venceu == 0) {
+            }   else if (venceu == 2) {
                 printf("------------- X VENCEU!!!\n");
             }   else {
                 printf("-------------- DEU VELHA :D\n");
